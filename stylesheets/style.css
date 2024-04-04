@@ -36,6 +36,9 @@ header ul a {
   line-height: 26px;
   color: rgb(94, 96, 122);
 }
+header ul a:hover {
+  border-bottom: 1px solid rgb(94, 96, 122);
+}
 
 #mainGrid {
   display: grid;
@@ -77,6 +80,9 @@ header ul a {
   line-height: 24px;
   letter-spacing: 4.375px;
   padding: 1.2rem 3.15rem;
+}
+#mainGrid .mainGrid__readMore div a:hover {
+  background-color: rgb(233, 72, 57);
 }
 #mainGrid .mainGrid__news {
   grid-area: mainGrid__articles;

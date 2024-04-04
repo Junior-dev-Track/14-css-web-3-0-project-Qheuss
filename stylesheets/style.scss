@@ -46,6 +46,9 @@ header {
       line-height: 26px;
       color: $gray;
     }
+    a:hover {
+      border-bottom: 1px solid $gray;
+    }
   }
 }
 
@@ -93,6 +96,9 @@ header {
         line-height: 24px;
         letter-spacing: 4.375px;
         padding: 1.2rem 3.15rem;
+      }
+      a:hover {
+        background-color: rgb(233, 72, 57);
       }
     }
   }
