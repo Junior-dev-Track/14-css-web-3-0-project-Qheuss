@@ -29,7 +29,7 @@
   header nav ul li a {
     color: rgba(0, 0, 0, 0.75);
   }
-  header nav:active ul {
+  header nav:hover ul {
     display: flex;
   }
   #mainGrid {
@@ -38,7 +38,7 @@
     max-height: none;
   }
   #mainGrid .mainGrid__img {
-    content: url(/images/shapessmall.png);
+    content: url(../images/shapessmall.png);
   }
   #mainGrid h1 {
     font-size: 40px;

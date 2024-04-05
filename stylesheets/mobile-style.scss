@@ -29,7 +29,7 @@
         }
       }
     }
-    nav:active {
+    nav:hover {
       ul {
         display: flex;
       }
@@ -42,7 +42,7 @@
     max-height: none;
 
     .mainGrid__img {
-      content: url(/images/shapessmall.png);
+      content: url(../images/shapessmall.png);
     }
 
     h1 {

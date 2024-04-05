@@ -126,7 +126,7 @@ header ul a:hover {
 }
 
 #topArticles {
-  margin-top: 7rem;
+  margin: 7rem 0;
   display: flex;
   gap: 3rem;
 }
@@ -141,7 +141,7 @@ header ul a:hover {
   grid-area: topArticles__img;
   max-width: 10rem;
 }
-#topArticles article h2 {
+#topArticles article p {
   grid-area: topArticles__number;
   color: rgb(197, 198, 206);
   font-size: 32px;
@@ -155,7 +155,7 @@ header ul a:hover {
   font-weight: 800;
   line-height: 24px;
 }
-#topArticles article p {
+#topArticles article h4 {
   grid-area: topArticles__text;
   color: rgb(94, 96, 122);
   font-size: 15px;

@@ -150,7 +150,7 @@ header {
 }
 
 #topArticles {
-  margin-top: 7rem;
+  margin: 7rem 0;
   display: flex;
   gap: 3rem;
   article {
@@ -165,7 +165,7 @@ header {
       grid-area: topArticles__img;
       max-width: 10rem;
     }
-    h2 {
+    p {
       grid-area: topArticles__number;
       color: $lighterGray;
       font-size: 32px;
@@ -179,7 +179,7 @@ header {
       font-weight: 800;
       line-height: 24px;
     }
-    p {
+    h4 {
       grid-area: topArticles__text;
       color: $gray;
       font-size: 15px;
