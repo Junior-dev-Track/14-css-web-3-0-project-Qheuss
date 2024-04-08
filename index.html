@@ -25,7 +25,19 @@
     </header>
     <main>
       <section id="mainGrid">
-        <img class="mainGrid__img" src="./images/shapes.png" alt="shapes" />
+        <picture class="mainGrid__img">
+          <source
+            media="(min-width: 768px)"
+            srcset="./images/shapes.webp 768w"
+            width="730"
+            ;
+          />
+          <img
+            src="./images/shapessmall.webp"
+            alt="Description of the image"
+            width="343"
+          />
+        </picture>
         <h1>The Bright Future of Web 3.0?</h1>
         <div class="mainGrid__readMore">
           <p>

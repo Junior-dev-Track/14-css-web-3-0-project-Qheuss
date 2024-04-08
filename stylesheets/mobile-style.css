@@ -37,9 +37,6 @@
     flex-direction: column;
     max-height: none;
   }
-  #mainGrid .mainGrid__img {
-    content: url(../images/shapessmall.png);
-  }
   #mainGrid h1 {
     font-size: 40px;
     line-height: 40px;
